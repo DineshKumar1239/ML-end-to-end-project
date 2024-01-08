@@ -2,6 +2,7 @@ import os
 from mlproject.logging import logger
 import pandas as pd
 from mlproject.entity.config_entity import DataValidationConfig
+from pathlib import Path
 
 
 class DataValiadtion:
