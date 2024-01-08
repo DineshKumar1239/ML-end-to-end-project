@@ -1,3 +1,16 @@
+from dataclasses import dataclass
+from pathlib import Path
+
+
+@dataclass(frozen=True)
+class DataIngestionConfig:
+    root_dir: Path
+    source_URL: str
+    local_data_file: Path
+    unzip_dir: Path
+
+
+
 from mlproject.constants import *
 from mlproject.utils.common import read_yaml, create_directories
 from mlproject.entity.config_entity import (DataIngestionConfig)
