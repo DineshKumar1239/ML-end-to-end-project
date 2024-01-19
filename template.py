@@ -25,7 +25,11 @@ list_of_files=[
     "requirements.txt",
     "setup.py",
     "research/trials.ipynb",
-    "templates/index.html"
+    "templates/index.html",
+    f"static/assets",
+    f"static/css/styles.css",
+    f"static/css2/nunito-font.css/style.css",
+    f"static/js/script.js"
 ]
 
 
